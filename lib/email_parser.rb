@@ -5,6 +5,6 @@ def initialize(csv_emails)
 end
 
 def parse
-    csv_emails.split(", ")
+    csv_emails.split.collect do |adress|
   end
 end
