@@ -1,6 +1,8 @@
 class parser(email)
-  attr_accessible :parse
+attr_accessor :name, :csv_emails
+def initialize
   
+end
 def parse
     email.split(", ")
   end
