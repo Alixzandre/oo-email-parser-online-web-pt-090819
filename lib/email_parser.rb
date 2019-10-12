@@ -1,5 +1,5 @@
 class parser(email)
-  attr_reader :parse
+  attr_accessible :parse
   
 def parse
     email.split(", ")
